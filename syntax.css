@@ -1,0 +1,64 @@
+
+
+html {
+    
+    background-image: url(https://media.tenor.com/images/ec7479b3a1bad5b61ec8cefa865ffe4a/tenor.gif);
+    background-repeat:repeat;
+    background-size:200px, 50px;
+    width: 100%;
+    min-height: 50px; 
+    padding: 25px; 
+}
+
+body{
+    background-color:black;
+    font-family: "Hoefler Text", Cambria, "Times New Roman", serif;
+    font-size: 18px;
+    text-align:center; 
+    color:aqua;
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+main{
+    display:flexbox;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 50%; 
+}
+
+.Image1{
+    display:block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+}
+
+.Image2{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(100%);
+   
+}
+
+#Image6{
+    filter: blur(5px) hue-rotate(60deg) saturate(2);
+}
+
+#Image7{
+    filter: brightness(1.5) contrast(3) grayscale(0.6) invert(0.23) sepia(0.2);
+}
+
+ul{
+    background-color:aquamarine;
+    border-width: 25px;
+    border-style:groove;
+    border-color:green;
+    list-style-image: url(https://i.imgur.com/MaSll2N.jpg);
+}
+
+
