@@ -45,6 +45,13 @@ main{
    
 }
 
+.Image5{
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+
 #Image6{
     filter: blur(5px) hue-rotate(60deg) saturate(2);
 }
