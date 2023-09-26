@@ -30,12 +30,12 @@ body{
 }
 
 .flex-left {
-    padding: 5px;
+    padding: 0px;
     flex: 50%;
 }
 
 .flex-right {
-    padding: 5px;
+    padding: 0px;
     flex: 50%; 
 }
 
