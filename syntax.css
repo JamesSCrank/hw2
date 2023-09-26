@@ -31,12 +31,12 @@ body{
 
 .flex-left {
     padding: 0px;
-    flex: 50%;
+    flex: 100%;
 }
 
 .flex-right {
     padding: 0px;
-    flex: 50%; 
+    flex: 100%; 
 }
 
 @media  (max-width: 900px) {
