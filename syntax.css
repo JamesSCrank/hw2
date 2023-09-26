@@ -76,18 +76,23 @@ main{
 .animated:hover {
     animation-play-state: paused; 
 }
+h1{
+    text-shadow: 2px 2px green; 
+}
+.Image4{
+    transform: rotateY(150deg);
+}
 
-.Transition{
+.Image5{
     width: 100px;
     height: 100px;
-    background-color:brown;
     transition-property: width;
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
     transition-delay: 0s;
 }
 
-.Transition:hover{
+.Image5:hover{
     width: 300px;
 }
 
