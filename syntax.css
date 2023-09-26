@@ -29,13 +29,16 @@ body{
     text-align: center; 
 }
 
+.Tunes{
+    box-sizing: border-box;
+}
 .flex-left {
-    padding: 0px;
+    padding: 100px;
     flex: 100%;
 }
 
 .flex-right {
-    padding: 0px;
+    padding: 100px;
     flex: 100%; 
 }
 
