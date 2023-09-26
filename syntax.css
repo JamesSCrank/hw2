@@ -64,7 +64,7 @@ main{
 
 }
 
-.Image4{
+.animated{
     animation-iteration-count: infinite;
     animation-name: BounceIn;
     animation-play-state: running;
@@ -73,7 +73,7 @@ main{
     animation-delay: 1s;
 }
 
-.Image4:hover {
+.animated:hover {
     animation-play-state: paused; 
 }
 
