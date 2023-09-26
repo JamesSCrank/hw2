@@ -78,6 +78,9 @@ main{
 }
 
 .Image5{
+    width: 100px;
+    height: 100px;
+    background: red;
     transition-property: width;
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
