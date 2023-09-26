@@ -45,7 +45,7 @@ main{
    
 }
 
-@keyframes Image4{
+@keyframes BounceIn{
     0%{
     transform: scale(0.1);
     color: blue;
@@ -65,8 +65,8 @@ main{
 }
 
 .Image4{
-    animation-iteration-count: infitine;
-    animation-name: Image4;
+    animation-iteration-count: infinite;
+    animation-name: BounceIn;
     animation-play-state: running;
     animation-duration: 2s;
     animation-timing-function: ease-out;
