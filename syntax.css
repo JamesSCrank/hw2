@@ -78,14 +78,18 @@ main{
 }
 
 .Image5{
-    transition-property: opacity(50%);
+    transition-property: width;
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
     transition-delay: 0s;
 }
 
+.Image5:hover{
+    width: 300px;
+}
+
 #Image6{
-    filter: blur(5px) hue-rotate(60deg) saturate(2);
+    filter: blur(5px) saturate(2);
 }
 
 #Image7{
