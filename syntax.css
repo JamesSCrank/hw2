@@ -22,6 +22,9 @@ body{
     width: 50%;
 }
 
+.flex-container {
+    display: flex;
+}
 
 main{
     display:flexbox;
