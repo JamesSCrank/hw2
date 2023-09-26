@@ -45,8 +45,40 @@ main{
    
 }
 
+@keyframes Image4{
+    0%{
+    transform: scale(0.1);
+    color: blue;
+    opacity: 0;
+    }
+
+    70% {
+        transform: scale(1.4);
+        color: red;
+        opacity: 1;
+    }
+    100% {
+        color: green;
+        transform: scale(1);
+    }
+
+}
+
+.Image4{
+    animation-iteration-count: infitine;
+    animation-name: Image4;
+    animation-play-state: running;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+}
+
+.Image4:hover {
+    animation-play-state: paused; 
+}
+
 .Image5{
-    transition-property: opacity;
+    transition-property: opacity(50%);
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
     transition-delay: 0s;
