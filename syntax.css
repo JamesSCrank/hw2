@@ -45,16 +45,16 @@ main{
    
 }
 
-@keyframes BounceIn{
+@keyframes ChristmasTree{
     0%{
     transform: scale(0.1);
-    color: blue;
+    color: yellow;
     opacity: 0;
     }
 
     70% {
         transform: scale(1.4);
-        color: red;
+        color: pink;
         opacity: 1;
     }
     100% {
@@ -66,7 +66,7 @@ main{
 
 .animated{
     animation-iteration-count: infinite;
-    animation-name: BounceIn;
+    animation-name: ChristmasTree;
     animation-play-state: running;
     animation-duration: 2s;
     animation-timing-function: ease-out;
