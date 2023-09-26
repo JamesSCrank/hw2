@@ -25,9 +25,21 @@ body{
 .flex-container {
     display: flex;
     flex-direction: row;
+    font-size: 30px;
+    text-align: center; 
 }
 
-@media screen and (min-width=200px) and (max-width: 900px) {
+.flex-left {
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-right {
+    padding: 10px;
+    flex: 50%; 
+}
+
+@media  (max-width: 900px) {
     .flex-container {
         flex-direction: column;
     }
