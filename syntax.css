@@ -81,6 +81,7 @@ h1{
 }
 .Image4{
     transform: rotateY(150deg);
+    -webkit-box-reflect:left; 
 }
 
 .Image5{
