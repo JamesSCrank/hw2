@@ -23,7 +23,7 @@ body{
 
 .flex-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-size: 15px;
     text-align: center; 
 }
@@ -32,13 +32,13 @@ body{
     box-sizing: border-box;
 }
 .flex-left {
-    padding: 100px;
-    flex: 100%;
+    padding: 10px;
+    flex: 50%;
 }
 
 .flex-right {
-    padding: 100px;
-    flex: 100%; 
+    padding: 10px;
+    flex: 50%; 
 }
 
 @media  (max-width: 900px) {
@@ -131,6 +131,10 @@ h1{
 
 .Image8{
     border-radius: 50%;
+}
+
+.Image9{
+    border-radius: 8px;
 }
 
 ul{
