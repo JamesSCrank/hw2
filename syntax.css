@@ -77,17 +77,17 @@ main{
     animation-play-state: paused; 
 }
 
-.Image5{
+.Transition{
     width: 100px;
     height: 100px;
-    background: red;
+    background-color:brown;
     transition-property: width;
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
     transition-delay: 0s;
 }
 
-.Image5:hover{
+.Transition:hover{
     width: 300px;
 }
 
