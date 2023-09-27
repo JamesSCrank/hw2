@@ -138,3 +138,6 @@ summary{
     writing-mode: vertical-rl;
 }
 
+h4{
+    box-sizing: border-box; 
+}
