@@ -12,7 +12,10 @@ html {
 
 
 
-body{
+
+
+.flex-container > div{
+    display: flex;
     background-color:black;
     font-family: "Hoefler Text", Cambria, "Times New Roman", serif;
     font-size: 18px;
@@ -21,10 +24,6 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
-
-.flex-container > div{
-    display: flex;
 }
 
 
