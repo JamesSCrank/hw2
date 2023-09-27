@@ -33,7 +33,7 @@ body{
 
 @media  (max-width: 900px) {
     .flex-container {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 }
 
