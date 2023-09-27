@@ -19,6 +19,15 @@ html {
     color:aqua;
 }
 
+.flex-container > body{
+    display: flex;
+    background-color:black;
+    font-family: "Hoefler Text", Cambria, "Times New Roman", serif;
+    font-size: 18px;
+    text-align:center; 
+    color:aqua;
+}
+
 @media only screen and (max-width: 600px) and (max-height: 100px) {
     .flex-container {
         flex-direction: column;
