@@ -18,10 +18,9 @@ html {
     text-align:center; 
     color:aqua;
     padding: 25px;
-    height: 375px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (max-height: 200px) {
     .flex-container {
         flex-direction: column;
         flex-wrap: wrap;
