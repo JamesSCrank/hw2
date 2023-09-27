@@ -10,6 +10,8 @@ html {
     padding: 25px; 
 }
 
+
+
 body{
     background-color:black;
     font-family: "Hoefler Text", Cambria, "Times New Roman", serif;
@@ -23,22 +25,10 @@ body{
 
 .flex-container {
     display: flex;
-    flex-direction: row;
-    font-size: 15px;
-    text-align: center; 
 }
 
 .Tunes{
     box-sizing: border-box;
-}
-.flex-left {
-    padding: 10px;
-    flex: 50%;
-}
-
-.flex-right {
-    padding: 10px;
-    flex: 50%; 
 }
 
 @media  (max-width: 900px) {
