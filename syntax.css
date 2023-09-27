@@ -29,6 +29,7 @@ html {
     .flex-container {
         flex-direction: column-reverse;
         flex-wrap: wrap;
+        justify-content:flex-start;
     }
 }
 
